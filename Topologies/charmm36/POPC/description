@@ -1,0 +1,38 @@
+Description
+===========
+Lipidmaps_ID:      LMGP01010005
+Common_name:       PC(16:0/18:1(9Z))
+Systematic_name:   1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+Formula:           C42H82NO8P
+Lipidmaps_URL:     http://www.lipidmaps.org/data/LMSDRecord.php?LMID=LMGP01010005
+
+Forcefield
+==========
+Forcefield:        charmm36
+Software:          gromacs
+Lipidname:         POPC
+Shortname:         POPC
+
+Primary reference(s)
+====================
+Title:                  
+Authors:            
+Journal:            
+Year:               
+Volume:             
+Page:               
+Pubmed_ID:          
+DOI:                 
+
+Database reference(s)
+=====================
+Title:              
+Authors:            
+Journal:            
+Year:               
+Volume:             
+Page:               
+Pubmed_ID:          
+DOI:                
+URL:                
+

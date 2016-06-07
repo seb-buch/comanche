@@ -1,0 +1,65 @@
+=====================================
+Force field parameters from Lipidbook
+=====================================
+
+Parameter files in this zip file were downloaded from lipidbook.bioch.ox.ac.uk.
+Linked parameters need to be manually downloaded via the links in links.txt.
+
+Always cite the primary reference(s) for the parameters, which can be
+found at the end of this file.
+
+Please cite Lipidbook in your published work with the reference
+
+J. Domanski, P. Stansfeld, M.S.P. Sansom, and O. Beckstein. 
+Lipidbook: A Public Repository for Force Field Parameters Used in Membrane 
+Simulations. J. Membrane Biol. 236 (2010), 255--258. doi:10.1007/s00232-010-9296-8. 
+URL:http://lipidbook.bioch.ox.ac.uk
+
+ 
+
+License: CC-Attribute-ShareAlike 3.0 (cc-by-sa-3.0  http://creativecommons.org/licenses/by-sa/3.0/) 
+ NOTE: The licence REQUIRES that you cite the primary reference when
+       you use and/or modify these files.  See the link under Licence for
+       details.
+ 
+
+Overview
+========
+Lipid:         1,2-dimyristoyl-sn-glycero-3-phosphoglycerol (DMPG)
+Forcefield:    GROMOS-CKP
+Code:          Gromacs
+Version:       1 (created: 22-05-2012, last update: 22-05-2012)
+Curator:       Tom Piggot
+Lipidbook URL: http://lipidbook.bioch.ox.ac.uk/version/show/id/85.html
+ 
+File manifest
+=============
+Downloaded files are listed with SHA1 checksums. You can compute the
+checksums of the downloaded files (e.g. with the 'openssl sha1' or
+the 'sha1sum' commands) and compare them to the listed ones. If they
+agree you have verified the files; it also allows a simple check of
+which files changed between versions.
+ 
+DMPG-D_GROMOS-CKP.itp     : 052f9c2ee80ac33ddbb39bb296e09b7be6052c4f
+DMPG-L_GROMOS-CKP.itp     : 99afcbae0a259da065932068a1072b430783b074
+md-DMPG_400ns.gro         : 2feb427caea4b5fb80d7884bca26c57019c7e755
+SHA1 of all files         : def69a886c9a5901874c921deaaecda64c1a061e
+
+Primary reference(s)
+===================
+Please always credit the original authors of the parameters by citing 
+these papers:
+ 
+
+Title:     Electroporation of the E. coli and S. aureus membranes: molecular dynamics simulations of complex bacterial membranes.
+Authors:   Piggot TJ, Holdbrook DA, Khalid S
+Journal:   J Phys Chem B  
+Year:      2011 Nov 17
+Volume:    115
+Page:      13381-8
+pubmed id: 21970408
+doi:       10.1021/jp207013v
+
+Additional notes:  
+           -
+

@@ -1,0 +1,49 @@
+;;;;;;monogalactosyldiacylglycerol with two  α-linolenoyl tails sn1 and sn2 (PMGDT)
+[ moleculetype ]
+PMGDT             1
+
+[ atoms ]
+    1          P4    1    PMGDT     C1     1         0        72.0000
+    2          P1    1    PMGDT     C2     2         0        72.0000
+    3          P1    1    PMGDT     C3     3         0        72.0000
+    4          Na    1    PMGDT    GL1     4         0        72.0000
+    5          Na    1    PMGDT    GL2     5         0        72.0000
+    6          C1    1    PMGDT    C1A     6         0        72.0000 ; from DUPC
+    7          C4    1    PMGDT    D2A     7         0        72.0000 ; from DUPC
+    8          C4    1    PMGDT    D3A     8         0        72.0000 ; from DUPC
+    9          C4    1    PMGDT    D4A     9         0        72.0000 ; from DUPC changed to c4
+   10          C1    1    PMGDT    C1B     10        0        72.0000 ; from DUPC
+   11          C4    1    PMGDT    D2B     11        0        72.0000 ; from DUPC
+   12          C4    1    PMGDT    D3B     12        0        72.0000 ; from DUPC
+   13          C4    1    PMGDT    D4B     13        0        72.0000 ; from DUPC changed to c4
+                                           
+[ bonds ]
+    1    2   1  0.3    30000
+    1    3   1  0.3    30000
+    2    3   1  0.3    30000
+    3    4   1  0.426  30000
+    4    5   1  0.37   1250
+    4    6   1  0.47   1250
+    6    7   1  0.470  1250
+    7    8   1  0.470  1250
+    8    9   1  0.470  1250
+    5   10   1  0.470  1250
+   10   11   1  0.470  1250
+   11   12   1  0.470  1250
+   12   13   1  0.470  1250
+
+[ angles ]
+   1     3     4    2   140.00   35.00
+   2     3     4    2   100.00   35.00
+   3     4     5    2    85.00   20.00
+   3     4     6    2   131.00   25.00
+   4     6     7    2   180.00   25.00 ; from DUPC
+   6     7     8    2   100.00   10.00 ; from DUPC
+   7     8     9    2   100.00   10.00 ; from DUPC
+   5    10    11    2   180.00   25.00 ; from DUPC
+  10    11    12    2   100.00   10.00 ; from DUPC
+  11    12    13    2   100.00   10.00 ; from DUPC
+
+[ dihedrals ]
+1 3 4 5 1     30.0  8.00 1
+

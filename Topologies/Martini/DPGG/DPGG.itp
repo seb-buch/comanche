@@ -1,0 +1,92 @@
+;;;;;; Martini lipid topology for di-C16:0-C18:0 DGDG (DPGG)
+;
+; Description:
+;  Digalactosyldiacylglycerol (DGDG) with two palmitoyl chains in the cyanobacterial thylakoid membrane of Thermosynechococcus
+;  vulcanus. Corresponding to atomistic e.g. C18:1(9c)/16:0 DGDG.
+; Parameterization:
+;  This topology follows the standard Martini 2.0 lipid definitions and building block rules. 
+;  WARNING, there are more recent versions of this headgroup. The one here is described in Lopez et al. 2013, see Van Eerden 
+;  et al. 2015 for modifications. The lipids OPGG, DFGG and FPGG contain the modified headgroup.
+; Reference(s): 
+;  S.J. Marrink, A.H. de Vries, A.E. Mark. Coarse grained model for semi-quantitative lipid simulations. JPC-B, 108:750-760, 
+;  2004. doi:10.1021/jp036508g                                                                      
+;  S.J. Marrink, H.J. Risselada, S. Yefimov, D.P. Tieleman, A.H. de Vries. The MARTINI force field: coarse grained model for 
+;  biomolecular simulations. JPC-B, 111:7812-7824, 2007. doi:10.1021/jp071097f 
+;  C.A. Lopez, A. Rzepiela, A.H. de Vries, L. Dijkhuizen, P.H. Huenenberger, S.J. Marrink. The Martini coarse grained force field: 
+;  extension to carbohydrates. JCTC, 5:3195-3210, 2009. doi:10.1021/ct900313w
+;  C.A. Lopez, Z. Sovova, F.J. van Eerden, A.H. de Vries, S.J. Marrink. Martini force field parameters for glycolipids.
+;  JCTC, 9:1694-1708, 2013. doi:10.1021/ct3009655
+;  F.J. van Eerden, D.H. de Jong, A.H. de Vries, T.A. Wassenaar, S.J. Marrink. Characterization of thylakoid lipid membranes from
+;  cyanobacteria and higher plants by molecular dynamics simulations. BBA - Biomembranes, 1848, 1319-1330, 2015.  
+;  doi:10.1016/j.bbamem.2015.02.025
+; Created: 2015.05.27
+;
+
+[ moleculetype ]
+DPGG             1
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+    1           P2    1    DPGG    GA1     1         0        72.0000
+    2           P4    1    DPGG    GA2     2         0        72.0000
+    3           P1    1    DPGG    GA3     3         0        72.0000
+    4           N0    1    DPGG    GB1     4         0        72.0000
+    5           P2    1    DPGG    GB2     5         0        72.0000
+    6           P4    1    DPGG    GB3     6         0        72.0000
+    7           Na    1    DPGG    GL1     4         0        72.0000
+    8           Na    1    DPGG    GL2     5         0        72.0000
+    9           C1    1    DPGG    C1A     6         0        72.0000
+   10           C1    1    DPGG    C2A     7         0        72.0000
+   11           C1    1    DPGG    C3A     8         0        72.0000
+   12           C1    1    DPGG    C4A     9         0        72.0000
+   13           C1    1    DPGG    C1B    10         0        72.0000
+   14           C1    1    DPGG    C2B    11         0        72.0000
+   15           C1    1    DPGG    C3B    12         0        72.0000
+   16           C1    1    DPGG    C4B    13         0        72.0000
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+;    1    2   1  0.3   30000
+;    1    3   1  0.3   30000
+    1    4   1  0.44  10000
+;    4    5   1  0.3   30000
+;    5    6   1  0.3   30000
+    5    7   1  0.5   10000
+    7    8   1  0.37   1250
+    7    9   1  0.47   1250
+    9   10   1  0.470  1250
+   10   11   1  0.470  1250
+   11   12   1  0.470  1250
+    8   13   1  0.470  1250
+   13   14   1  0.470  1250
+   14   15   1  0.470  1250
+   15   16   1  0.470  1250
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+   2     1     4    2    81.00   35.00
+   3     1     4    2   100.00   35.00
+   5     4     1    2   180.00   35.00
+   5     7     8    2   100.00   35.00
+   6     5     7    2   106.00   35.00
+   5     7     9    2   150.00   35.00
+   7     9    10    2   180.00   25.00
+   9    10    11    2   180.00   25.00
+  10    11    12    2   180.00   25.00
+   8    13    14    2   180.00   25.00
+  13    14    15    2   180.00   25.00
+  14    15    16    2   180.00   25.00
+
+[ dihedrals ]
+2 1 4 5 1 -20.00  5.00 1
+4 5 7 9 1 -80.00  5.00 1
+
+[ constraints ]
+    1    2   1  0.3   
+    1    3   1  0.3   
+    4    5   1  0.3   
+    5    6   1  0.3   
+
+[ exclusions ]
+4 6
+ 

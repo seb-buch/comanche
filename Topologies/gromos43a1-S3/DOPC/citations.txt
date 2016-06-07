@@ -1,0 +1,93 @@
+=====================================
+Force field parameters from Lipidbook
+=====================================
+
+Parameter files in this zip file were downloaded from lipidbook.bioch.ox.ac.uk.
+Linked parameters need to be manually downloaded via the links in links.txt.
+
+Always cite the primary reference(s) for the parameters, which can be
+found at the end of this file.
+
+Please cite Lipidbook in your published work with the reference
+
+J. Domanski, P. Stansfeld, M.S.P. Sansom, and O. Beckstein. 
+Lipidbook: A Public Repository for Force Field Parameters Used in Membrane 
+Simulations. J. Membrane Biol. 236 (2010), 255--258. doi:10.1007/s00232-010-9296-8. 
+URL:http://lipidbook.bioch.ox.ac.uk
+
+ 
+
+License: Fair Use (http://www.copyrightservice.co.uk/copyright/p09_fair_use) 
+ NOTE: The licence REQUIRES that you cite the primary reference when
+       you use and/or modify these files.  See the link under Licence for
+       details.
+ 
+
+Overview
+========
+Lipid:         1,2-dioleoyl-sn-glycero-3-phosphocholine (DOPC)
+Forcefield:    GROMOS43A1-S3
+Code:          Gromacs
+Version:       1 (created: 01-06-2012, last update: 01-06-2012)
+Curator:       Oliver Beckstein
+Lipidbook URL: http://lipidbook.bioch.ox.ac.uk/version/show/id/91.html
+ 
+File manifest
+=============
+Downloaded files are listed with SHA1 checksums. You can compute the
+checksums of the downloaded files (e.g. with the 'openssl sha1' or
+the 'sha1sum' commands) and compare them to the listed ones. If they
+agree you have verified the files; it also allows a simple check of
+which files changed between versions.
+ 
+dopc.gro                  : 9505d6e70408cad42d51d7585df815492dc1058f
+dopc.itp                  : 63d5fe022360a7c6621540f0a0de3f417ca4412f
+dopc.pdb                  : a969fe05310c507e95f0a2a3574c6786b96a15b5
+dopc_structure.gro        : f19bc74054b1f3035f19b8998aa259400b28bf93
+dopc_structure.pdb        : 9797aa6e34f9308ac99e1cf309f8cf5095a639c1
+ffG43A1-S3.02.itp         : e9dce266afc5dd7713aeaa44c4c77a4e7311405d
+links.txt                 : 89f6ac0a64a03d82791b6f4b04fde69adc8ed2c1
+SHA1 of all files         : 4abd1324c7ed72ddaecdc9fea60ec21978b428c2
+
+Primary reference(s)
+===================
+Please always credit the original authors of the parameters by citing 
+these papers:
+ 
+
+Title:     An improved united atom force field for simulation of mixed lipid bilayers.
+Authors:   Chiu SW, Pandit SA, Scott HL, Jakobsson E
+Journal:   J Phys Chem B  
+Year:      2009 Mar 5
+Volume:    113
+Page:      2748-63
+pubmed id: 19708111
+doi:       10.1021/jp807056c
+
+Additional notes:  
+           -
+
+Title:     Cholesterol packing around lipids with saturated and unsaturated chains: a simulation study.
+Authors:   Pandit SA, Chiu SW, Jakobsson E, Grama A, Scott HL
+Journal:   Langmuir  
+Year:      2008 Jun 1
+Volume:    24
+Page:      6858-65
+pubmed id: 18517226
+doi:       10.1021/la8004135
+
+Additional notes:  
+           -
+
+Title:     Sphingomyelin-cholesterol domains in phospholipid membranes: atomistic simulation.
+Authors:   Pandit SA, Vasudevan S, Chiu SW, Mashl RJ, Jakobsson E, Scott HL
+Journal:   Biophys J  
+Year:      2004 Aug
+Volume:    87
+Page:      1092-100
+pubmed id: 15298913
+doi:       10.1529/biophysj.104.041939
+
+Additional notes:  
+           -
+

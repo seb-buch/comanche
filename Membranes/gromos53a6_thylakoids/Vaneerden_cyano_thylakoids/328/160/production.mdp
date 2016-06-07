@@ -1,0 +1,56 @@
+cpp                 =  /lib/cpp
+constraints         =  all-bonds
+integrator          =  md    
+tinit               =  0.0
+dt                  =  0.0015   
+nsteps              =  -1
+comm_mode	    =  Linear
+comm_grps	    =  Lipids_DOWN Lipids_UP SOLION
+nstcomm             =  10
+nstxout             =  10000
+nstvout             =  0
+nstfout             =  0
+nstlog              =  1000
+nstenergy           =  1000
+nstxtcout           =  1000
+xtc_precision       =  10000
+xtc_grps	    =  lipids
+nstlist             =  5
+energygrps          =  lipids SOLION 
+ns_type             =  grid
+rlist               =  1.4
+coulombtype         =  PME
+;epsilon_rf          =  0
+rcoulomb            =  1.4
+rvdw                =  1.4
+Tcoupl              =  Berendsen
+tc-grps             =  lipids SOLION
+ref_t               =  328 328
+tau_t               =  0.1  0.1 
+Pcoupl              =  Berendsen 
+Pcoupl_type         =  semiisotropic
+tau_p               =  0.5 0.5
+compressibility     =  4.6e-5 4.6e-5 
+ref_p               =  1.0 1.0 
+gen_vel             = yes
+gen_temp            = 328
+gen_seed            = 473529
+;Dihedral Restraints
+dihre		    = yes
+dihre_fc	    = 100
+dihre_tau	    = 0.0
+nstdihreout	    = 50
+
+;PME settings coppied from mdout.mdp
+; Spacing for the PME/PPPM FFT grid
+fourierspacing           = 0.12
+; FFT grid size, when a value is 0 fourierspacing will be used
+fourier_nx               = 0
+fourier_ny               = 0
+fourier_nz               = 0
+; EWALD/PME/PPPM parameters
+pme_order                = 4
+ewald_rtol               = 1e-05
+ewald_geometry           = 3d
+epsilon_surface          = 0
+optimize_fft             = yes

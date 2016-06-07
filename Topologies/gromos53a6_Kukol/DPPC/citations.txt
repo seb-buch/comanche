@@ -1,0 +1,64 @@
+=====================================
+Force field parameters from Lipidbook
+=====================================
+
+Parameter files in this zip file were downloaded from lipidbook.bioch.ox.ac.uk.
+Linked parameters need to be manually downloaded via the links in links.txt.
+
+Always cite the primary reference(s) for the parameters, which can be
+found at the end of this file.
+
+Please cite Lipidbook in your published work with the reference
+
+J. Domanski, P. Stansfeld, M.S.P. Sansom, and O. Beckstein. 
+Lipidbook: A Public Repository for Force Field Parameters Used in Membrane 
+Simulations. J. Membrane Biol. 236 (2010), 255--258. doi:10.1007/s00232-010-9296-8. 
+URL:http://lipidbook.bioch.ox.ac.uk
+
+ 
+
+License: Fair Use (http://www.copyrightservice.co.uk/copyright/p09_fair_use) 
+ NOTE: The licence REQUIRES that you cite the primary reference when
+       you use and/or modify these files.  See the link under Licence for
+       details.
+ 
+
+Overview
+========
+Lipid:         1,2-dipalmitoyl-sn-glycero-3-phosphocholine (DPPC)
+Forcefield:    GROMOS53a6
+Code:          Gromacs
+Version:       1 (created: 31-08-2009, last update: 31-08-2009)
+Curator:       Andreas Kukol
+Lipidbook URL: http://lipidbook.bioch.ox.ac.uk/version/show/id/24.html
+ 
+File manifest
+=============
+Downloaded files are listed with SHA1 checksums. You can compute the
+checksums of the downloaded files (e.g. with the 'openssl sha1' or
+the 'sha1sum' commands) and compare them to the listed ones. If they
+agree you have verified the files; it also allows a simple check of
+which files changed between versions.
+ 
+dppc128_40ns.pdb          : ee848a0f7d6e4ff366074419d669191aec803ec1
+dppc_53a6.itp             : cd2bbeee40b8cd1cda9ad74d14fc29bacf4b4ac3
+SHA1 of all files         : 480f18c96d97a3cabd546d92ace9606d969f6011
+
+Primary reference(s)
+===================
+Please always credit the original authors of the parameters by citing 
+these papers:
+ 
+
+Title:     Lipid Models for United-Atom Molecular Dynamics Simulations of Proteins
+Authors:   A Kukol
+Journal:   J Chem Theory Comput  
+Year:      2009
+Volume:    5
+Page:      615–626
+pubmed id: 
+doi:       10.1021/ct8003468
+
+Additional notes:  
+           -
+

@@ -1,0 +1,38 @@
+Description
+===========
+Lipidmaps_ID:      LMGP0101C001
+Common_name:       PC(16:0/15:0(13(R)Me))
+Systematic_name:   1-((R)-13-methylpentadecanoyl)-2-hexadecanoyl-sn-glycero-3-phosphocholine
+Formula:           C40H81NO8P
+Lipidmaps_URL:     
+
+Forcefield
+==========
+Forcefield:        charmm36
+Software:          gromacs
+Lipidname:         APPC
+Shortname:         APPC
+
+Primary reference(s)
+====================
+Title:                  
+Authors:            
+Journal:            
+Year:               
+Volume:             
+Page:               
+Pubmed_ID:          
+DOI:                 
+
+Database reference(s)
+=====================
+Title:              
+Authors:            
+Journal:            
+Year:               
+Volume:             
+Page:               
+Pubmed_ID:          
+DOI:                
+URL:                
+

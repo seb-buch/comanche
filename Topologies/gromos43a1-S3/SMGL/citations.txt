@@ -1,0 +1,93 @@
+=====================================
+Force field parameters from Lipidbook
+=====================================
+
+Parameter files in this zip file were downloaded from lipidbook.bioch.ox.ac.uk.
+Linked parameters need to be manually downloaded via the links in links.txt.
+
+Always cite the primary reference(s) for the parameters, which can be
+found at the end of this file.
+
+Please cite Lipidbook in your published work with the reference
+
+J. Domanski, P. Stansfeld, M.S.P. Sansom, and O. Beckstein. 
+Lipidbook: A Public Repository for Force Field Parameters Used in Membrane 
+Simulations. J. Membrane Biol. 236 (2010), 255--258. doi:10.1007/s00232-010-9296-8. 
+URL:http://lipidbook.bioch.ox.ac.uk
+
+ 
+
+License: Fair Use (http://www.copyrightservice.co.uk/copyright/p09_fair_use) 
+ NOTE: The licence REQUIRES that you cite the primary reference when
+       you use and/or modify these files.  See the link under Licence for
+       details.
+ 
+
+Overview
+========
+Lipid:         18:0 SM (d18:1/18:0) N-stearoyl-D-erythro-sphingosylphosphorylcholine (SMGL)
+Forcefield:    GROMOS43A1-S3
+Code:          Gromacs
+Version:       1 (created: 01-06-2012, last update: 01-06-2012)
+Curator:       Oliver Beckstein
+Lipidbook URL: http://lipidbook.bioch.ox.ac.uk/version/show/id/97.html
+ 
+File manifest
+=============
+Downloaded files are listed with SHA1 checksums. You can compute the
+checksums of the downloaded files (e.g. with the 'openssl sha1' or
+the 'sha1sum' commands) and compare them to the listed ones. If they
+agree you have verified the files; it also allows a simple check of
+which files changed between versions.
+ 
+ffG43A1-S3.02.itp         : e9dce266afc5dd7713aeaa44c4c77a4e7311405d
+links.txt                 : 67da6f91c714aca364ca3b631686e914e914db70
+sgml.gro                  : 3f8607d53cc170b5625af7336b3ff3cc120df4f2
+sgml.itp                  : 0646aacbbb26d739bf3d644e1a38a15a54608a11
+sgml.pdb                  : e1bdf7e6071492d16cf3b0b2fa29255107b53007
+sgml_structure.gro        : 3727f09e41292a067d5d7328036afb06901a2e8b
+sgml_structure.pdb        : 8da6a8269a9719374a3a1d1b7737469c827d7c30
+SHA1 of all files         : 4c3958f9b687d678ed45e8a4c863d9d76fcc32ec
+
+Primary reference(s)
+===================
+Please always credit the original authors of the parameters by citing 
+these papers:
+ 
+
+Title:     An improved united atom force field for simulation of mixed lipid bilayers.
+Authors:   Chiu SW, Pandit SA, Scott HL, Jakobsson E
+Journal:   J Phys Chem B  
+Year:      2009 Mar 5
+Volume:    113
+Page:      2748-63
+pubmed id: 19708111
+doi:       10.1021/jp807056c
+
+Additional notes:  
+           -
+
+Title:     Sphingomyelin-cholesterol domains in phospholipid membranes: atomistic simulation.
+Authors:   Pandit SA, Vasudevan S, Chiu SW, Mashl RJ, Jakobsson E, Scott HL
+Journal:   Biophys J  
+Year:      2004 Aug
+Volume:    87
+Page:      1092-100
+pubmed id: 15298913
+doi:       10.1529/biophysj.104.041939
+
+Additional notes:  
+           -
+
+Title:     Structure of sphingomyelin bilayers: a simulation study.
+Authors:   Chiu SW, Vasudevan S, Jakobsson E, Mashl RJ, Scott HL
+Journal:   Biophys J  
+Year:      2003 Dec
+Volume:    85
+Page:      3624-35
+pubmed id: 14645055
+doi:       10.1016/S0006-3495(03)74780-8
+
+Additional notes:  
+           -
+

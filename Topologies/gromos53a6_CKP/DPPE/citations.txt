@@ -1,0 +1,64 @@
+=====================================
+Force field parameters from Lipidbook
+=====================================
+
+Parameter files in this zip file were downloaded from lipidbook.bioch.ox.ac.uk.
+Linked parameters need to be manually downloaded via the links in links.txt.
+
+Always cite the primary reference(s) for the parameters, which can be
+found at the end of this file.
+
+Please cite Lipidbook in your published work with the reference
+
+J. Domanski, P. Stansfeld, M.S.P. Sansom, and O. Beckstein. 
+Lipidbook: A Public Repository for Force Field Parameters Used in Membrane 
+Simulations. J. Membrane Biol. 236 (2010), 255--258. doi:10.1007/s00232-010-9296-8. 
+URL:http://lipidbook.bioch.ox.ac.uk
+
+ 
+
+License: CC-Attribute-ShareAlike 3.0 (cc-by-sa-3.0  http://creativecommons.org/licenses/by-sa/3.0/) 
+ NOTE: The licence REQUIRES that you cite the primary reference when
+       you use and/or modify these files.  See the link under Licence for
+       details.
+ 
+
+Overview
+========
+Lipid:         1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine (DPPE)
+Forcefield:    GROMOS-CKP
+Code:          Gromacs
+Version:       1 (created: 22-05-2012, last update: 22-05-2012)
+Curator:       Tom Piggot
+Lipidbook URL: http://lipidbook.bioch.ox.ac.uk/version/show/id/83.html
+ 
+File manifest
+=============
+Downloaded files are listed with SHA1 checksums. You can compute the
+checksums of the downloaded files (e.g. with the 'openssl sha1' or
+the 'sha1sum' commands) and compare them to the listed ones. If they
+agree you have verified the files; it also allows a simple check of
+which files changed between versions.
+ 
+DPPE_GROMOS-CKP.itp       : 8302382ea9ee8ef90eabe8f308c6ad5c11ac611e
+md-DPPE_200ns.gro         : 4a59df4f92f6487bf446ccf0ca977e8cf0098299
+SHA1 of all files         : b7187c60237e24552e7a91d225c4acd2481eb51f
+
+Primary reference(s)
+===================
+Please always credit the original authors of the parameters by citing 
+these papers:
+ 
+
+Title:     Electroporation of the E. coli and S. aureus membranes: molecular dynamics simulations of complex bacterial membranes.
+Authors:   Piggot TJ, Holdbrook DA, Khalid S
+Journal:   J Phys Chem B  
+Year:      2011 Nov 17
+Volume:    115
+Page:      13381-8
+pubmed id: 21970408
+doi:       10.1021/jp207013v
+
+Additional notes:  
+           -
+

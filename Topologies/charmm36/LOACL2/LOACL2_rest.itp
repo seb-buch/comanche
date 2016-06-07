@@ -1,0 +1,47 @@
+#ifdef STEP6_0
+#define fc_lpos 1000.0
+#define fc_ldih 1000.0
+#endif
+#ifdef STEP6_1
+#define fc_lpos 1000.0
+#define fc_ldih 1000.0
+#endif
+#ifdef STEP6_2
+#define fc_lpos 1000.0
+#define fc_ldih 400.0
+#endif
+#ifdef STEP6_3
+#define fc_lpos 400.0
+#define fc_ldih 200.0
+#endif
+#ifdef STEP6_4
+#define fc_lpos 200.0
+#define fc_ldih 200.0
+#endif
+#ifdef STEP6_5
+#define fc_lpos 40.0
+#define fc_ldih 100.0
+#endif
+#ifdef STEP6_6
+#define fc_lpos 0.0
+#define fc_ldih 0.0
+#endif
+#ifdef STEP7
+#define fc_lpos 0.0
+#define fc_ldih 0.0
+#endif
+
+[ position_restraints ]
+    4     1      0.0      0.0  fc_lpos
+   19     1      0.0      0.0  fc_lpos
+
+[ dihedral_restraints ]
+   35    24    27    29     1    120.0      2.5  fc_ldih
+   52     9    44    46     1    120.0      2.5  fc_ldih
+   76    79    81    83     1      0.0      0.0  fc_ldih
+  123   126   128   130     1      0.0      0.0  fc_ldih
+  130   133   135   137     1      0.0      0.0  fc_ldih
+  168   171   173   175     1      0.0      0.0  fc_ldih
+  175   178   180   182     1      0.0      0.0  fc_ldih
+  213   216   218   220     1      0.0      0.0  fc_ldih
+  220   223   225   227     1      0.0      0.0  fc_ldih

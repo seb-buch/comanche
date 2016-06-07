@@ -1,0 +1,7 @@
+#when using grompp you get the following warning, which you can ignore:
+WARNING 1 [file ffG53a6bon.itp, line 576]:
+  Overriding Proper Dih. parameters.
+  Use dihedraltype 4 to allow several multiplicity terms.
+
+  old: 180 9.35 1 180 9.35 1 
+  new: OA    CH2    CH1   OA   1   0.000       9.50          3

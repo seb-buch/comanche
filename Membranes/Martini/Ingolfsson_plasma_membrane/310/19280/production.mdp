@@ -1,0 +1,116 @@
+;
+; STANDARD MD INPUT OPTIONS FOR MARTINI 2.0
+;
+
+; VARIOUS PREPROCESSING OPTIONS = 
+title                    = PlasmaMembrane
+
+; TIMESTEP IN MARTINI 
+; Most simulations are numerically stable 
+; with dt=40 fs, some (especially rings) require 20-30 fs.
+; Note that time steps of 40 fs and larger may create local heating or 
+; cooling in your system. Although the use of a heat bath will globally 
+; remove this effect, it is advised to check consistency of 
+; your results for somewhat smaller time steps in the range 20-30 fs.
+; Time steps exceeding 40 fs should not be used; time steps smaller
+; than 20 fs are also not required.
+
+;define                   = -DPOSRES
+define                   = -DPOS_Z_AXES
+integrator               = md 
+; Production run
+dt                       = 0.02 
+nsteps                   = 2000000000 
+comm-grps           	 = Lipids Solvent
+
+nstxout                  = 2500000
+nstvout                  = 2500000
+nstfout                  = 0
+nstlog                   = 25000
+nstenergy                = 25000
+nstxtcout                = 25000
+xtc_precision            = 100
+energygrps               = Lipids Solvent
+
+; NEIGHBOURLIST and MARTINI 
+; Due to the use of shifted potentials, the noise generated 
+; from particles leaving/entering the neighbour list is not so large, 
+; even when large time steps are being used. In practice, once every 
+; ten steps works fine with a neighborlist cutoff that is equal to the 
+; non-bonded cutoff (1.2 nm). However, to improve energy conservation 
+; or to avoid local heating/cooling, you may increase the update frequency 
+; and/or enlarge the neighbourlist cut-off (to 1.4 nm). The latter option 
+; is computationally less expensive and leads to improved energy conservation
+
+nstlist                  = 10
+ns_type                  = grid
+pbc                      = xyz
+rlist                    = 1.4
+
+; MARTINI and NONBONDED 
+; Standard cut-off schemes are used for the non-bonded interactions 
+; in the Martini model: LJ interactions are shifted to zero in the 
+; range 0.9-1.2 nm, and electrostatic interactions in the range 0.0-1.2 nm. 
+; The treatment of the non-bonded cut-offs is considered to be part of 
+; the force field parameterization, so we recommend not to touch these 
+; values as they will alter the overall balance of the force field.
+; In principle you can include long range electrostatics through the use
+; of PME, which could be more realistic in certain applications 
+; Please realize that electrostatic interactions in the Martini model are 
+; not considered to be very accurate to begin with, especially as the 
+; screening in the system is set to be uniform across the system with 
+; a screening constant of 15. When using PME, please make sure your 
+; system properties are still reasonable.
+
+coulombtype              = Shift
+rcoulomb_switch          = 0.0
+rcoulomb                 = 1.2
+epsilon_r                = 15
+epsilon_rf               = 1
+vdw_type                 = Shift
+rvdw_switch              = 0.9
+rvdw                     = 1.2
+
+; MARTINI and TEMPRATURE/PRESSURE
+; normal temperature and pressure coupling schemes can be used. 
+; It is recommended to couple individual groups in your system separately.
+; Good temperature control can be achieved with the Berendsen thermostat, 
+; using a coupling constant of the order of Ï„ = 1 ps. Even better 
+; temperature control can be achieved by reducing the temperature coupling 
+; constant to 0.1 ps, although with such tight coupling (Ï„ approaching 
+; the time step) one can no longer speak of a weak-coupling scheme.
+; We therefore recommend a coupling time constant of at least 0.5 ps.
+;
+; Similarly, pressure can be controlled with the Berendsen barostat, 
+; with a coupling constant in the range 1-5 ps and typical compressibility 
+; in the order of 10-4 - 10-5 bar-1. Note that, in order to estimate 
+; compressibilities from CG simulations, you should use Parrinello-Rahman 
+; type coupling.
+
+tcoupl                   = v-rescale
+tc-grps                  = Lipids Solvent
+tau_t                    = 1.0 1.0
+ref_t                    = 310 310 ; or 37C
+
+Pcoupl                   = Parrinello-Rahman
+Pcoupltype               = semiisotropic
+tau_p                    = 5.0 5.0
+compressibility          = 3e-4 3e-4
+ref_p                    = 1.0 1.0
+refcoord_scaling         = all
+
+gen_vel                  = no
+continuation             = yes
+
+; MARTINI and CONSTRAINTS 
+; for ring systems constraints are defined
+; which are best handled using Lincs. 
+; Note, during energy minimization the constrainst should be
+; replaced by stiff bonds.
+
+constraints              = none
+constraint_algorithm     = Lincs
+lincs_order              = 4 ; can use order 6 iter 2
+lincs_warnangle          = 90
+
+

@@ -1,0 +1,25 @@
+#include "gromos53a6_thylakoids.ff/forcefield.itp"
+#include "lipids.itp"
+
+[ system ]
+; name
+plant_thylakoids
+
+[ molecules ]
+; name  number
+; upper leaflet
+PPG              4
+PPT              8
+PDGDG            4
+PDGDT           20
+PMGDG            4
+PMGDT           28
+PSQDG           12
+; lower leaflet
+PPG              4
+PPT              8
+PDGDG            4
+PDGDT           20
+PMGDG            4
+PMGDT           28
+PSQDG           12

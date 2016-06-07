@@ -1,0 +1,38 @@
+Description
+===========
+Lipidmaps_ID:      LMSP03010006
+Common_name:       SM(d18:1/22:0)
+Systematic_name:   N-(docosanoyl)-sphing-4-enine-1-phosphocholine
+Formula:           C45H91N2O6P
+Lipidmaps_URL:     http://www.lipidmaps.org/data/LMSDRecord.php?LMID=LMSP03010006
+
+Forcefield
+==========
+Forcefield:        charmm36
+Software:          gromacs
+Lipidname:         BSM
+Shortname:         BSM
+
+Primary reference(s)
+====================
+Title:                  
+Authors:            
+Journal:            
+Year:               
+Volume:             
+Page:               
+Pubmed_ID:          
+DOI:                 
+
+Database reference(s)
+=====================
+Title:              
+Authors:            
+Journal:            
+Year:               
+Volume:             
+Page:               
+Pubmed_ID:          
+DOI:                
+URL:                
+

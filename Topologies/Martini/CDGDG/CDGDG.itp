@@ -1,0 +1,72 @@
+;;;;;; digalactosyldiacylglycerol (CDGDG) with one oleoyl chain at sn1, and a palmitoyl chain at sn2
+
+[ moleculetype ]
+  CDGDG     1
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+     1 SP2         1 CDGDG   GB2    5               0         72 
+     2 P4          1 CDGDG   GB3    6               0         72
+     3 SN0         1 CDGDG   GB1    4               0         72
+     4 SP2         1 CDGDG   GA1    1               0         72
+     5 P4          1 CDGDG   GA2    2               0         72
+     6 P1          1 CDGDG   GA3    3               0         72
+     7 Na          1 CDGDG   GL1    7               0         72
+     8 Na          1 CDGDG   GL2    8               0         72
+     9 C1          1 CDGDG   C1A    9               0         72
+    10 C1          1 CDGDG   C2A    10              0         72
+    11 C1          1 CDGDG   C3A    11              0         72
+    12 C1          1 CDGDG   C4A    12              0         72
+    13 C1          1 CDGDG   C1B    13              0         72
+    14 C4          1 CDGDG   D2B    14              0         72
+    15 C1          1 CDGDG   C3B    15              0         72
+    16 C1          1 CDGDG   C4B    16              0         72
+
+[ bonds ]
+;  ai    aj funct            c0            c1            c2            c3
+     4     5     1   0.3 30000 
+     4     6     1   0.3 30000
+     4     3     1  0.44 10000
+     3     1     1   0.3 30000 
+     1     2     1   0.3 30000
+     1     7     1   0.5 10000
+     7     8     1  0.37  1250
+     7     9     1  0.47  1250
+     9    10     1 0.470  1250
+    10    11     1 0.470  1250
+    11    12     1 0.470  1250
+     8    13     1 0.470  1250
+    13    14     1 0.470  1250
+    14    15     1 0.470  1250
+    15    16     1 0.470  1250
+
+[ angles ]
+;  ai    aj    ak funct            c0            c1            c2            c3
+     5     4     3     2 81.00  35.00
+     6     4     3     2 100.00 35.00
+     1     3     4     2 180.00 35.00
+     1     7     8     2 100.00 35.00
+     2     1     7     2 106.00 35.00
+     1     7     9     2 150.00 35.00
+     7     9    10     2 180.00 25.00
+     9    10    11     2 180.00 25.00
+    10    11    12     2 180.00 25.00
+     8    13    14     2 180.00 25.00
+    13    14    15     2 120.00 45.00
+    14    15    16     2 180.00 25.00
+
+[ dihedrals ]
+     5     4     3     1     1 -20.00  5.00     1
+     3     1     7     9     1 -80.00  5.00     1
+
+
+
+#ifdef POSRES_MEMBRANE  
+#include "posres_CDGDG.itp"
+#endif   
+
+; sulfoquinovosyldiacylglycerol (SQDG)
+
+;There are two version of SQDG, one with two palmitoyl tails (CSQDG) and one with a palmitoyl and an oleoyl tail (CSQDB)
+
+

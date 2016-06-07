@@ -1,0 +1,63 @@
+=====================================
+Force field parameters from Lipidbook
+=====================================
+
+Parameter files in this zip file were downloaded from lipidbook.bioch.ox.ac.uk.
+Linked parameters need to be manually downloaded via the links in links.txt.
+
+Always cite the primary reference(s) for the parameters, which can be
+found at the end of this file.
+
+Please cite Lipidbook in your published work with the reference
+
+J. Domanski, P. Stansfeld, M.S.P. Sansom, and O. Beckstein. 
+Lipidbook: A Public Repository for Force Field Parameters Used in Membrane 
+Simulations. J. Membrane Biol. 236 (2010), 255--258. doi:10.1007/s00232-010-9296-8. 
+URL:http://lipidbook.bioch.ox.ac.uk
+
+ 
+
+License: Fair Use (http://www.copyrightservice.co.uk/copyright/p09_fair_use) 
+ NOTE: The licence REQUIRES that you cite the primary reference when
+       you use and/or modify these files.  See the link under Licence for
+       details.
+ 
+
+Overview
+========
+Lipid:         1,2-dioleoyl-sn-glycero-3-phosphocholine (DOPC)
+Forcefield:    GROMOS53a6
+Code:          Gromacs
+Version:       1 (created: 19-07-2010, last update: 19-07-2010)
+Curator:       Oliver Beckstein
+Lipidbook URL: http://lipidbook.bioch.ox.ac.uk/version/show/id/54.html
+ 
+File manifest
+=============
+Downloaded files are listed with SHA1 checksums. You can compute the
+checksums of the downloaded files (e.g. with the 'openssl sha1' or
+the 'sha1sum' commands) and compare them to the listed ones. If they
+agree you have verified the files; it also allows a simple check of
+which files changed between versions.
+ 
+links.txt                 : 85d07229adf7f33cd0591a54aa70a709d5944660
+SHA1 of all files         : 0acd16cc78a1defdb012647981ac33ab8eaf054a
+
+Primary reference(s)
+===================
+Please always credit the original authors of the parameters by citing 
+these papers:
+ 
+
+Title:     Biomolecular simulations of membranes: physical properties from different force fields.
+Authors:   Siu SW, Vácha R, Jungwirth P, Böckmann RA
+Journal:   J Chem Phys  
+Year:      2008
+Volume:    128
+Page:      125103
+pubmed id: 18376978
+doi:       10.1063/1.2897760
+
+Additional notes:  
+           -
+

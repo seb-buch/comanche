@@ -1,0 +1,38 @@
+Description
+===========
+Lipidmaps_ID:      LMSP02010004
+Common_name:       Cer(d18:1/16:0)
+Systematic_name:   N-(hexadecanoyl)-sphing-4-enine
+Formula:           C34H67NO3
+Lipidmaps_URL:     http://www.lipidmaps.org/data/LMSDRecord.php?LMID=LMSP02010004
+
+Forcefield
+==========
+Forcefield:        charmm36
+Software:          gromacs
+Lipidname:         CER160
+Shortname:         CER1 
+
+Primary reference(s)
+====================
+Title:                  
+Authors:            
+Journal:            
+Year:               
+Volume:             
+Page:               
+Pubmed_ID:          
+DOI:                 
+
+Database reference(s)
+=====================
+Title:              
+Authors:            
+Journal:            
+Year:               
+Volume:             
+Page:               
+Pubmed_ID:          
+DOI:                
+URL:                
+

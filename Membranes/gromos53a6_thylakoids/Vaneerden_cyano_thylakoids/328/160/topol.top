@@ -1,0 +1,21 @@
+#include "gromos53a6_thylakoids.ff/forcefield.itp"
+#include "lipids.itp"
+
+[ system ]
+; name
+cyano_thylakoids
+
+[ molecules ]
+; name  number
+; upper leaflet
+CPG              8
+CDGDG           20
+CMGDG           32
+CSQDB            8
+CSQDG           12
+; lower leaflet
+CPG              8
+CDGDG           20
+CMGDG           32
+CSQDB            8
+CSQDG           12

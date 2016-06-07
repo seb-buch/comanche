@@ -1,0 +1,66 @@
+=====================================
+Force field parameters from Lipidbook
+=====================================
+
+Parameter files in this zip file were downloaded from lipidbook.bioch.ox.ac.uk.
+Linked parameters need to be manually downloaded via the links in links.txt.
+
+Always cite the primary reference(s) for the parameters, which can be
+found at the end of this file.
+
+Please cite Lipidbook in your published work with the reference
+
+J. Domanski, P. Stansfeld, M.S.P. Sansom, and O. Beckstein. 
+Lipidbook: A Public Repository for Force Field Parameters Used in Membrane 
+Simulations. J. Membrane Biol. 236 (2010), 255--258. doi:10.1007/s00232-010-9296-8. 
+URL:http://lipidbook.bioch.ox.ac.uk
+
+ 
+
+License: Fair Use (http://www.copyrightservice.co.uk/copyright/p09_fair_use) 
+ NOTE: The licence REQUIRES that you cite the primary reference when
+       you use and/or modify these files.  See the link under Licence for
+       details.
+ 
+
+Overview
+========
+Lipid:         1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol (POPG)
+Forcefield:    GROMOS53a6
+Code:          Gromacs
+Version:       2 (created: 03-05-2010, last update: 03-05-2010)
+Curator:       Andreas Kukol
+Lipidbook URL: http://lipidbook.bioch.ox.ac.uk/version/show/id/46.html
+ 
+File manifest
+=============
+Downloaded files are listed with SHA1 checksums. You can compute the
+checksums of the downloaded files (e.g. with the 'openssl sha1' or
+the 'sha1sum' commands) and compare them to the listed ones. If they
+agree you have verified the files; it also allows a simple check of
+which files changed between versions.
+ 
+dpopgGromacs4_53a6.itp    : be0f5b2c344d57880b02a11c41947ca89af91a66
+links.txt                 : adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+lpopgGromacs4_53a6.itp    : 43e1f77642723fe54adfcf90756c11378739f4a8
+popg_40ns.pdb             : 12ecdba0ac01dcce3152d102f7221a5617eea3a8
+SHA1 of all files         : 03845012fedecabdf6c6f1d9288b47f35f0a8913
+
+Primary reference(s)
+===================
+Please always credit the original authors of the parameters by citing 
+these papers:
+ 
+
+Title:     Lipid Models for United-Atom Molecular Dynamics Simulations of Proteins
+Authors:   A Kukol
+Journal:   J Chem Theory Comput  
+Year:      2009
+Volume:    5
+Page:      615–626
+pubmed id: 
+doi:       10.1021/ct8003468
+
+Additional notes:  
+           -
+

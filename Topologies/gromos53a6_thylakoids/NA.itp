@@ -1,0 +1,44 @@
+;
+;	File 'topol.top' was generated
+;	By user: onbekend (0)
+;	On host: onbekend
+;	At date: Tue Oct  9 10:18:56 2012
+;
+;	This is a standalone topology file
+;
+;	It was generated using program:
+;	pdb2gmx - VERSION 4.5.5
+;
+;	Command line was:
+;	pdb2gmx -f na.pdb 
+;
+;	Force field was read from current directory or a relative path - path added.
+;
+
+; Include forcefield parameters
+;#include "./forcefield.ff/forcefield.itp"
+
+[ moleculetype ]
+; Name            nrexcl
+NA+         3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 NA+ rtp NA+  q +1.0
+     1        NA+      1    NA+     NA      1          1    22.9898   ; qtot 1
+
+;[ mapping ]
+;1	1 
+
+; Include Position restraint file
+;#ifdef POSRES
+;#include "posre.itp"
+;#endif
+
+;[ system ]
+; Name
+;DPPC molecule in water t= 10000.00000
+
+;[ molecules ]
+; Compound        #mols
+;Ion_chain_A         1

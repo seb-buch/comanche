@@ -1,0 +1,69 @@
+=====================================
+Force field parameters from Lipidbook
+=====================================
+
+Parameter files in this zip file were downloaded from lipidbook.bioch.ox.ac.uk.
+Linked parameters need to be manually downloaded via the links in links.txt.
+
+Always cite the primary reference(s) for the parameters, which can be
+found at the end of this file.
+
+Please cite Lipidbook in your published work with the reference
+
+J. Domanski, P. Stansfeld, M.S.P. Sansom, and O. Beckstein. 
+Lipidbook: A Public Repository for Force Field Parameters Used in Membrane 
+Simulations. J. Membrane Biol. 236 (2010), 255--258. doi:10.1007/s00232-010-9296-8. 
+URL:http://lipidbook.bioch.ox.ac.uk
+
+ 
+
+License: Fair Use (http://www.copyrightservice.co.uk/copyright/p09_fair_use) 
+ NOTE: The licence REQUIRES that you cite the primary reference when
+       you use and/or modify these files.  See the link under Licence for
+       details.
+ 
+
+Overview
+========
+Lipid:         1,2-dilauroyl-sn-glycero-3-phosphocholine (DLPC)
+Forcefield:    GROMOS43A1-S3
+Code:          Gromacs
+Version:       1 (created: 31-05-2012, last update: 01-06-2012)
+Curator:       Oliver Beckstein
+Lipidbook URL: http://lipidbook.bioch.ox.ac.uk/version/show/id/89.html
+ 
+File manifest
+=============
+Downloaded files are listed with SHA1 checksums. You can compute the
+checksums of the downloaded files (e.g. with the 'openssl sha1' or
+the 'sha1sum' commands) and compare them to the listed ones. If they
+agree you have verified the files; it also allows a simple check of
+which files changed between versions.
+ 
+dlpc.gro                  : c6412feb798a9494fe17e3f27b39d5d7f98bfd3a
+dlpc.itp                  : 80973db54f26e463825fdd0d2aa60efc995f349d
+dlpc.pdb                  : 5df241d17c5bfda5f65891bde76c069a5e5128c4
+dlpc_structure.gro        : dd2463261644a1e4d02015fb3d479f81eb985505
+dlpc_structure.pdb        : a6b881cf1b8fe5a83bd2e7d501972b1d2ec0de70
+ffG43A1-S3.02.itp         : e9dce266afc5dd7713aeaa44c4c77a4e7311405d
+links.txt                 : d84581cced2d2ad7eae3a3486b973388289167cd
+SHA1 of all files         : abfa6159dd87d2942fc0290735ab21fd5a9d44aa
+
+Primary reference(s)
+===================
+Please always credit the original authors of the parameters by citing 
+these papers:
+ 
+
+Title:     An improved united atom force field for simulation of mixed lipid bilayers.
+Authors:   Chiu SW, Pandit SA, Scott HL, Jakobsson E
+Journal:   J Phys Chem B  
+Year:      2009 Mar 5
+Volume:    113
+Page:      2748-63
+pubmed id: 19708111
+doi:       10.1021/jp807056c
+
+Additional notes:  
+           -
+

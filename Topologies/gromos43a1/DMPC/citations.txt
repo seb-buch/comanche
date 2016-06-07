@@ -1,0 +1,77 @@
+=====================================
+Force field parameters from Lipidbook
+=====================================
+
+Parameter files in this zip file were downloaded from lipidbook.bioch.ox.ac.uk.
+Linked parameters need to be manually downloaded via the links in links.txt.
+
+Always cite the primary reference(s) for the parameters, which can be
+found at the end of this file.
+
+Please cite Lipidbook in your published work with the reference
+
+J. Domanski, P. Stansfeld, M.S.P. Sansom, and O. Beckstein. 
+Lipidbook: A Public Repository for Force Field Parameters Used in Membrane 
+Simulations. J. Membrane Biol. 236 (2010), 255--258. doi:10.1007/s00232-010-9296-8. 
+URL:http://lipidbook.bioch.ox.ac.uk
+
+ 
+
+License: Fair Use (http://www.copyrightservice.co.uk/copyright/p09_fair_use) 
+ NOTE: The licence REQUIRES that you cite the primary reference when
+       you use and/or modify these files.  See the link under Licence for
+       details.
+ 
+
+Overview
+========
+Lipid:         1,2-dimyristoyl-sn-glycero-3-phosphocholine (DMPC)
+Forcefield:    GROMOS43a1
+Code:          Gromacs
+Version:       1 (created: 11-12-2009, last update: 11-12-2009)
+Curator:       Phill Stansfeld
+Lipidbook URL: http://lipidbook.bioch.ox.ac.uk/version/show/id/42.html
+ 
+File manifest
+=============
+Downloaded files are listed with SHA1 checksums. You can compute the
+checksums of the downloaded files (e.g. with the 'openssl sha1' or
+the 'sha1sum' commands) and compare them to the listed ones. If they
+agree you have verified the files; it also allows a simple check of
+which files changed between versions.
+ 
+dmpc-G9643a1.itp          : f880a38344d79c07565f2ba5aa854217c94ac777
+dmpc-structure.pdb        : 642aa47d3cb2f27164748d904e642891f50cb570
+dmpc.pdb                  : b1a01bfb70e721baac865c7dbc6ec314a3cf2d22
+SHA1 of all files         : da7b17120333597294bb3b4c75b29000528625cc
+
+Primary reference(s)
+===================
+Please always credit the original authors of the parameters by citing 
+these papers:
+ 
+
+Title:     Molecular dynamics simulations of a fluid bilayer of dipalmitoylphosphatidylcholine at full hydration, constant pressure, and constant temperature.
+Authors:   Berger O, Edholm O, Jähnig F
+Journal:   Biophys J  
+Year:      1997
+Volume:    72
+Page:      2002-13
+pubmed id: 9129804
+doi:       10.1016/S0006-3495(97)78845-3
+
+Additional notes:  
+           -
+
+Title:     -
+Authors:   Tieleman DP
+Journal:   -  
+Year:      -
+Volume:    -
+Page:      -
+pubmed id: 
+doi:       
+
+Additional notes:  
+           (unpublished)
+

@@ -1,0 +1,110 @@
+; Include forcefield parameters
+#include "martini_v2.1.itp"
+#include "martini_v2.0_ions.itp"
+#include "martini_v2.0_lipid.itp"
+
+[ system ]
+; name
+plasma_membrane
+
+[ molecules ]
+; name  number
+; X: 77.600 (100 lipids) Y: 77.600 (100 lipids)
+; 10000 lipids in upper leaflet, 9280 lipids in lower leaflet 
+; upper leaflet
+POPX          1205
+DOPC           106
+PIPX          1772
+PEPC            71
+PAPC           283
+DAPC            35
+PUPC            71
+POPE           135
+DOPE            44
+PIPE            90
+PQPE            22
+PAPE           124
+DAPE            78
+PUPE            44
+DUPE            22
+DPSM           611
+DBSM           133
+DXSM           247
+POSM            38
+PGSM            38
+PNSM           381
+BNSM           191
+XNSM           267
+DPG1            89
+DXG1            51
+PNG1            64
+XNG1            51
+DPG3            89
+DXG3            51
+PNG3            64
+XNG3            51
+DPCE            32
+DXCE            18
+PNCE            22
+XNCE            18
+PPC             64
+OPC             20
+IPC             18
+APC             18
+UPC              7
+PODG            20
+PIDG            18
+PADG            18
+PUDG             7
+CHOL          3183
+; lower leaflet
+CHOL          2577
+POPC           550
+DOPC            49
+PIPC           810
+PEPC            32
+PAPC           129
+DAPC            16
+PUPC            32
+POPE           569
+DOPE           190
+PIPE           380
+PQPE            95
+PAPE           522
+DAPE           332
+PUPE           190
+DUPE            95
+DPSM           279
+DBSM            61
+DXSM           113
+POSM            17
+PGSM            17
+PNSM           174
+BNSM            86
+XNSM           121
+POPS           200
+PIPS            79
+PQPS            39
+PAPS           461
+DAPS            20
+PUPS           180
+DUPS            20
+POPI           137
+PIPI           120
+PAPI           120
+PUPI            51
+POPA            46
+PIPA            39
+PAPA            39
+PUPA            17
+POP1            48
+POP2            48
+POP3            48
+DPCE            14
+DXCE             8
+PNCE            10
+XNCE             8
+PODG            22
+PIDG            20
+PADG            20
+PUDG             8

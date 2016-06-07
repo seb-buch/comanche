@@ -1,0 +1,38 @@
+Description
+===========
+Lipidmaps_ID:      LMSP03010078
+Common_name:       SM(d18:1/23:0)
+Systematic_name:   N-(tricosanoyl)-sphing-4-enine-1-phosphocholine
+Formula:           C46H93N2O6P
+Lipidmaps_URL:     http://www.lipidmaps.org/data/LMSDRecord.php?LMID=LMSP03010078
+
+Forcefield
+==========
+Forcefield:        charmm36
+Software:          gromacs
+Lipidname:         23SM
+Shortname:         23SM
+
+Primary reference(s)
+====================
+Title:                  
+Authors:            
+Journal:            
+Year:               
+Volume:             
+Page:               
+Pubmed_ID:          
+DOI:                 
+
+Database reference(s)
+=====================
+Title:              
+Authors:            
+Journal:            
+Year:               
+Volume:             
+Page:               
+Pubmed_ID:          
+DOI:                
+URL:                
+

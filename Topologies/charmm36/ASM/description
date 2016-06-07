@@ -1,0 +1,38 @@
+Description
+===========
+Lipidmaps_ID:      LMSP03010005
+Common_name:       SM(d18:1/20:0)
+Systematic_name:   N-(eicosanoyl)-sphing-4-enine-1-phosphocholine
+Formula:           C43H87N2O6P
+Lipidmaps_URL:     http://www.lipidmaps.org/data/LMSDRecord.php?LMID=LMSP03010005
+
+Forcefield
+==========
+Forcefield:        charmm36
+Software:          gromacs
+Lipidname:         ASM
+Shortname:         ASM
+
+Primary reference(s)
+====================
+Title:                  
+Authors:            
+Journal:            
+Year:               
+Volume:             
+Page:               
+Pubmed_ID:          
+DOI:                 
+
+Database reference(s)
+=====================
+Title:              
+Authors:            
+Journal:            
+Year:               
+Volume:             
+Page:               
+Pubmed_ID:          
+DOI:                
+URL:                
+

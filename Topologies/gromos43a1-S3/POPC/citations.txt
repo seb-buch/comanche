@@ -1,0 +1,81 @@
+=====================================
+Force field parameters from Lipidbook
+=====================================
+
+Parameter files in this zip file were downloaded from lipidbook.bioch.ox.ac.uk.
+Linked parameters need to be manually downloaded via the links in links.txt.
+
+Always cite the primary reference(s) for the parameters, which can be
+found at the end of this file.
+
+Please cite Lipidbook in your published work with the reference
+
+J. Domanski, P. Stansfeld, M.S.P. Sansom, and O. Beckstein. 
+Lipidbook: A Public Repository for Force Field Parameters Used in Membrane 
+Simulations. J. Membrane Biol. 236 (2010), 255--258. doi:10.1007/s00232-010-9296-8. 
+URL:http://lipidbook.bioch.ox.ac.uk
+
+ 
+
+License: Fair Use (http://www.copyrightservice.co.uk/copyright/p09_fair_use) 
+ NOTE: The licence REQUIRES that you cite the primary reference when
+       you use and/or modify these files.  See the link under Licence for
+       details.
+ 
+
+Overview
+========
+Lipid:         1-palmitoyl,2-oleoyl-sn-glycero-3-phosphocholine (POPC)
+Forcefield:    GROMOS43A1-S3
+Code:          Gromacs
+Version:       1 (created: 01-06-2012, last update: 01-06-2012)
+Curator:       Oliver Beckstein
+Lipidbook URL: http://lipidbook.bioch.ox.ac.uk/version/show/id/93.html
+ 
+File manifest
+=============
+Downloaded files are listed with SHA1 checksums. You can compute the
+checksums of the downloaded files (e.g. with the 'openssl sha1' or
+the 'sha1sum' commands) and compare them to the listed ones. If they
+agree you have verified the files; it also allows a simple check of
+which files changed between versions.
+ 
+ffG43A1-S3.02.itp         : e9dce266afc5dd7713aeaa44c4c77a4e7311405d
+links.txt                 : 1d4cf47a2e4c79d0af985b5cea5d21887f4f34a3
+popc.gro                  : 41b49cb6a363b0c4f1a8028a10918087fdbf6b9e
+popc.itp                  : 3003c14876bf3fe729c85c172d3c9ccd0f279d46
+popc.pdb                  : d124d4b0e421712811aa74bc3cfa94179735f00d
+popc_structure.gro        : 9783e843f63ae52833dfd27e2c24aeee7bc57cff
+popc_structure.pdb        : d3f92f139f14414b2572452587f30c6b9eb36375
+SHA1 of all files         : 847da2e544d363aef7bf7c43395ff30d3ac8181d
+
+Primary reference(s)
+===================
+Please always credit the original authors of the parameters by citing 
+these papers:
+ 
+
+Title:     An improved united atom force field for simulation of mixed lipid bilayers.
+Authors:   Chiu SW, Pandit SA, Scott HL, Jakobsson E
+Journal:   J Phys Chem B  
+Year:      2009 Mar 5
+Volume:    113
+Page:      2748-63
+pubmed id: 19708111
+doi:       10.1021/jp807056c
+
+Additional notes:  
+           -
+
+Title:     Cholesterol surrogates: a comparison of cholesterol and 16:0 ceramide in POPC bilayers.
+Authors:   Pandit SA, Chiu SW, Jakobsson E, Grama A, Scott HL
+Journal:   Biophys J  
+Year:      2007 Feb 1
+Volume:    92
+Page:      920-7
+pubmed id: 17071659
+doi:       10.1529/biophysj.106.095034
+
+Additional notes:  
+           -
+

@@ -1,0 +1,27 @@
+; Include forcefield parameters
+#include "martini_v2.1.itp"
+#include "martini_v2.0_ions.itp"
+#include "martini_v2.0_lipid.itp"
+
+[ system ]
+; name
+plant_thylakoids
+
+[ molecules ]
+; name  number
+; upper leaflet
+PPG             51
+PPT            102
+PDGDG           51
+PDGDT          256
+PMGDG           51
+PMGDT          358
+PSQDG          153
+; lower leaflet
+PPG             51
+PPT            102
+PDGDG           51
+PDGDT          256
+PMGDG           51
+PMGDT          358
+PSQDG          153
